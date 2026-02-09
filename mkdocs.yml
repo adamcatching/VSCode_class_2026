@@ -4,7 +4,7 @@ site_author: Adam Catching
 repo_url: https://github.com/adamcatching/VSCode_class_2026
 
 theme:
-  name: mkdocs # The default theme
+  name: readthedocs # The default theme
   # Or use a popular third-party theme like 'material'
   # name: material
 
