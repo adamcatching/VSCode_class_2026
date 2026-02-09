@@ -1,13 +1,31 @@
 # Biowulf
 
+![Biowulf](images/Biowulf.png)
+
 ## Background
-<p>
 Biowulf is the high-performance computation (HPC) cluster at the NIH. Most questions one can have about using Biowulf are answered in their [user guides](https://hpc.nih.gov/docs/user_guides.html). This guide assumes one has never used Biowulf before and serves as the starting point, which the rest of the guide will consist of working on Biowulf using a NIH computer. As Biowulf is a linux system running [slurm](https://slurm.schedmd.com/documentation.html) job management, parts will be applicable to other institution level HPCs.
-<\p>
 
 ## Getting an account
 
+To get an account on Biowulf you first need a NED account, as well as a PI and IC that agrees to add you to their Biowulf group. Once a PI has agreed to add you to their account, fill out [this form](https://hpcnihapps.cit.nih.gov/auth/accounts/account_request.php), which must be accessed through the NIH network, or through a NIH VPN. Once the form is submitted, your PI must approve the account via an automated email. A thorough walkthrough is found [here](https://hpc.nih.gov/docs/accounts.html).
+
+WARNING: If you don't use your Biowulf account for 60 days it will be deactivated. Make sure if you have an account you are at least somewhat consistently using it.
+
 ## Logging onto Biowulf
+
+There are many ways to interact with Biowulf, for brevity the terminal interface and interactive interface will be discussed.  
+
+### Terminal
+
+Once you have an account, 
+
+### Interactive
+
+While it is possible to activate a [tunnel](https://hpc.nih.gov/docs/tunneling/) for interfacing with Biowulf, a simplified web-browser based method has been created. 
+
+![HPCOnDemand](Images/HPCOnDemand.png)
+
+[HPCOnDemand](https://hpcondemand.nih.gov/) is a convenient interactive platform  
 
 ## Write a script
 
