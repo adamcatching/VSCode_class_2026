@@ -1,5 +1,12 @@
-version: 2
+site_name: VSCode Class 2026
+site_author: Adam Catching
 
-mkdocs:
-  configuration: docs/source/mkdocs.yml
-  fail_on_warning: false
+repo_url: https://github.com/adamcatching/VSCode_class_2026
+
+theme:
+  name: mkdocs # The default theme
+  # Or use a popular third-party theme like 'material'
+  # name: material
+
+nav:
+  - Home: index.md
