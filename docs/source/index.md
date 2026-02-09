@@ -16,7 +16,7 @@ As publically funded researchers, we have an obligation for our results to be as
 
 ## Sections
 
-1. `Biowulf <docs/biowulf.md>`
+1. [Biowulf] (docs/biowulf.md)
 2. [VSCode](docs/vscode.md)
 3. [Python](docs/python.md) 
 4. [GitHub](docs/github.md) 
