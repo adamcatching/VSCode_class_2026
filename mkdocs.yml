@@ -1,16 +1,14 @@
 site_name: VSCode Class 2026
 site_author: Adam Catching
 
-repo_url: https://github.com/adamcatching/VSCode_class_2026
-
 theme:
   name: readthedocs 
   features:
     - navigation.indexes
 nav:
-  - Biowulf: /docs/biowulf.md
-  - VSCode: /docs/vscode.md
-  - Python: /docs/python.md
-  - GitHub: /docs/github.md
-  - Snakemake: /docs/snakemake.md
-  - Singularity: /docs/singularity.md
+  - Biowulf: biowulf.md
+  - VSCode: vscode.md
+  - Python: python.md
+  - GitHub: github.md
+  - Snakemake: snakemake.md
+  - Singularity: singularity.md
