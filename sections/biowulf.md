@@ -23,9 +23,11 @@ Once you have an account,
 
 While it is possible to activate a [tunnel](https://hpc.nih.gov/docs/tunneling/) for interfacing with Biowulf, a simplified web-browser based method has been created. 
 
+[hpcondemand.nih.gov](https://hpcondemand.nih.gov/) is a convenient, interactive platform for interfacing with Biowulf. Once you log in there is a link at the bottom of the screen called [all available apps](https://hpcondemand.nih.gov/pun/sys/dashboard/apps/index). There you can find a list of all the methods to interface with Biowulf, alloting time of the session, cpu/memory usage, and even GPUs to allocate. 
+
 ![HPCOnDemand](../images/HPCOnDemand.png)
 
-[HPCOnDemand](https://hpcondemand.nih.gov/) is a convenient interactive platform  
+We recommend using VSCode, as this Integrated Development Environment (IDE) allows for using Python, R, Bash, and pretty much any other programming language. In addition, Jupyter notebooks can be run within VSCode using a pluggin, with all the optionality within Jupyter. For an introduction to VSCode, look at the [VSCode section](vscode.md).
 
 ## Write a script
 
