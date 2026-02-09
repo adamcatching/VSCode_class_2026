@@ -1,12 +1,4 @@
 version: 2
 
-build:
-  os: "ubuntu-22.04"
-  tools:
-    python: "3.8"
-    
-python:
-  install:
-    - requirements: docs/requirements.txt
-sphinx:
-  configuration: docs/source/conf.py
+# Build all formats
+formats: all
