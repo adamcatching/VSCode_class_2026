@@ -1,6 +1,6 @@
 # Biowulf
 
-![Biowulf](images/Biowulf.png)
+![Biowulf](../images/Biowulf.png)
 
 ## Background
 Biowulf is the high-performance computation (HPC) cluster at the NIH. Most questions one can have about using Biowulf are answered in their [user guides](https://hpc.nih.gov/docs/user_guides.html). This guide assumes one has never used Biowulf before and serves as the starting point, which the rest of the guide will consist of working on Biowulf using a NIH computer. As Biowulf is a linux system running [slurm](https://slurm.schedmd.com/documentation.html) job management, parts will be applicable to other institution level HPCs.
@@ -23,7 +23,7 @@ Once you have an account,
 
 While it is possible to activate a [tunnel](https://hpc.nih.gov/docs/tunneling/) for interfacing with Biowulf, a simplified web-browser based method has been created. 
 
-![HPCOnDemand](Images/HPCOnDemand.png)
+![HPCOnDemand](../images/HPCOnDemand.png)
 
 [HPCOnDemand](https://hpcondemand.nih.gov/) is a convenient interactive platform  
 
