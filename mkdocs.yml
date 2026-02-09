@@ -8,9 +8,9 @@ theme:
   features:
     - navigation.indexes
 nav:
-  - Biowulf: biowulf.md
-  - VSCode: vscode.md
-  - Python: python.md
-  - GitHub: github.md
-  - Snakemake: snakemake.md
-  - Singularity: singularity.md
+  - Biowulf: docs/biowulf.md
+  - VSCode: docs/vscode.md
+  - Python: docs/python.md
+  - GitHub: docs/github.md
+  - Snakemake: docs/snakemake.md
+  - Singularity: docs/singularity.md
