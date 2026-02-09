@@ -1,6 +1,6 @@
 # Biowulf
 
-![Biowulf](../images/Biowulf.png)
+![Biowulf](images/Biowulf.png)
 
 ## Background
 Biowulf is the high-performance computation (HPC) cluster at the NIH. Most questions one can have about using Biowulf are answered in their [user guides](https://hpc.nih.gov/docs/user_guides.html). This guide assumes one has never used Biowulf before and serves as the starting point, which the rest of the guide will consist of working on Biowulf using a NIH computer. As Biowulf is a linux system running [slurm](https://slurm.schedmd.com/documentation.html) job management, parts will be applicable to other institution level HPCs.
@@ -25,7 +25,7 @@ While it is possible to activate a [tunnel](https://hpc.nih.gov/docs/tunneling/)
 
 [hpcondemand.nih.gov](https://hpcondemand.nih.gov/) is a convenient, interactive platform for interfacing with Biowulf. Once you log in there is a link at the bottom of the screen called [all available apps](https://hpcondemand.nih.gov/pun/sys/dashboard/apps/index). There you can find a list of all the methods to interface with Biowulf, alloting time of the session, cpu/memory usage, and even GPUs to allocate. 
 
-![HPCOnDemand](../images/HPCOnDemand.png)
+![HPCOnDemand](images/HPCOnDemand.png)
 
 We recommend using VSCode, as this Integrated Development Environment (IDE) allows for using Python, R, Bash, and pretty much any other programming language. In addition, Jupyter notebooks can be run within VSCode using a pluggin, with all the optionality within Jupyter. For an introduction to VSCode, look at the [VSCode section](vscode.md).
 
