@@ -10,3 +10,9 @@ theme:
 
 nav:
   - Home: docs/index.md
+  - Biowulf: docs/biowulf.md
+  - VSCode: docs/vscode.md
+  - Python: docs/python.md
+  - GitHub: docs/github.md
+  - Snakemake: docs/snakemake.md
+  - Singularity: docs/singularity.md
