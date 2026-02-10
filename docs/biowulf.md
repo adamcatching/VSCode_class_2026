@@ -17,7 +17,9 @@ There are many ways to interact with Biowulf, for brevity the terminal interface
 
 ### Terminal
 
-Once you have an account, 
+Once you have an account, you can access your Biowulf account through terminal. On a Mac use the terminal, on PC use PowerShell to connect to Biowulf via `ssh username@biowulf.nih.gov`. From there you can move around using Bash commands such as `cd`, `pwd`, and `ls`. 
+
+If you want to move files to or from Biowulf, a simple way to move files is `scp username@helix.nih.gov:/path/to/file path/on/your/device`. It is important you use the `helix` value instead of `biowulf` when transferring files, as one is built for computation, and the other one is built for file transfer.
 
 ### Interactive
 
@@ -27,8 +29,12 @@ While it is possible to activate a [tunnel](https://hpc.nih.gov/docs/tunneling/)
 
 ![HPCOnDemand](images/HPCOnDemand.png)
 
-We recommend using VSCode, as this Integrated Development Environment (IDE) allows for using Python, R, Bash, and pretty much any other programming language. In addition, Jupyter notebooks can be run within VSCode using a pluggin, with all the optionality within Jupyter. For an introduction to VSCode, look at the [VSCode section](vscode.md).
+We recommend using VSCode, as this Integrated Development Environment (IDE) allows for using Python, R, Bash, and pretty much any other programming language. In addition, Jupyter notebooks can be run within VSCode using a pluggin, with all the optionality within Jupyter. For an introduction to VSCode, look at the [VSCode section](vscode.md). 
+
+Once you are familiar with VSCode, navigate to your 
 
 ## Write a script
+
+Once you have
 
 ## Submit a job

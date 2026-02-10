@@ -8,8 +8,10 @@ theme:
 nav:
   - Introduction: https://vscode-class-2026.readthedocs.io/
   - Biowulf: https://vscode-class-2026.readthedocs.io/biowulf/
-  - VSCode: https://vscode-class-2026.readthedocs.io/vscode.md/
-  - Python: https://vscode-class-2026.readthedocs.io/python.md/
-  - GitHub: https://vscode-class-2026.readthedocs.io/github.md/
-  - Snakemake: https://vscode-class-2026.readthedocs.io/snakemake.md/
-  - Singularity: https://vscode-class-2026.readthedocs.io/singularity.md/
+  - VSCode: https://vscode-class-2026.readthedocs.io/vscode/
+  - Python: https://vscode-class-2026.readthedocs.io/python_intro.ipynb/
+  - GitHub: https://vscode-class-2026.readthedocs.io/github/
+  - Snakemake: https://vscode-class-2026.readthedocs.io/snakemake/
+  - Singularity: https://vscode-class-2026.readthedocs.io/singularity/
+plugins:
+  - mkdocs-jupyter
