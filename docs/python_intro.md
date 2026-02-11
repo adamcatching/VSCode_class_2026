@@ -1,5 +1,30 @@
 # Learning python 
 
+## How do you use python?
+
+Writing in python can be accessed from a multitude of locations. Three major locations are:
+- Terminal for an interactive terminal session for quick commands
+- Jupyter notebook, where code entered and quickly visualized
+- Running `.py` scripts, which allows for greater and better use of computational resources
+
+### Using terminal
+
+On most systems, including VSCode on Biowulf, you can access 
+
+### Using Jupyter notebooks
+
+Instead of typing `python` in your 
+
+### Writing python scripts
+
+
+
+## What can python do?
+
+### Variables and functions
+
+No matter what language you are working with, you need to be able to see your output. Most of the output will be in the form of ASCII characters, unless you are producing an output of figures or graphs (which will still have underlying ASCII characters that are interpreted as an image). This is why its important to know how you output a set of characters, traditionally by saying `Hello World!`. This is done using the python `print` command.
+
 
 ```python
 print('Hello world!')
@@ -7,6 +32,11 @@ print('Hello world!')
 
     Hello world!
 
+
+`print` is actually a function, built-in to python and available in Python 3. There are many functions built into Python, which 
+
+
+In Python 2 `print` is statement, but unless necessary we will use Python 3 going forward.  
 
 
 ```python
@@ -69841,7 +69871,7 @@ plt.bar([0, 1], [tails_count, heads_count])
 
 
     
-![png](python_intro_files/python_intro_52_1.png)
+![png](python_intro_files/python_intro_64_1.png)
     
 
 
@@ -69857,7 +69887,7 @@ plt.savefig('coin_flip_figure.png')
 
 
     
-![png](python_intro_files/python_intro_53_0.png)
+![png](python_intro_files/python_intro_65_0.png)
     
 
 
@@ -69992,7 +70022,7 @@ coin_df.head()
 
 
 ```python
-!wget -O /data/CARD_singlecell/users/catchingba/VSCode/data/sra https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12101039/SRR12101039
+!wget -O /data/CARD_singlecell/users/catchingba/VSCode/data/example_fastq_file.fastq https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12101039/SRR12101039
 ```
 
     --2026-02-10 10:29:20--  https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR12101039/SRR12101039
