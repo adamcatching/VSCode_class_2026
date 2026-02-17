@@ -8,7 +8,7 @@ Anaconda containers break, often due to changes in underlying packages that supp
 
 The upside is that all future computation will run exactly as you saved it, either by running code within `singularity shell my_first_env.sif` or by using this `my_first_env.sif` as the environment in your Snakemake rule.
 
-
+![Singularity](images/Singularity.png)
 
 ## Build a Singularity `.def` file
 
@@ -69,7 +69,7 @@ Build the image through SyLabs by typing:
 
 To remotely save your containers online, we can't use GitHub due to the size of these files. Instead, we use (Quay.io)[https://quay.io/]. Login, make an account, and we can then save our containers remotely.
 
-~[Apptainer](images/apptainer.png)
+![Apptainer](images/apptainer.png)
 
 To upload your file use the module [apptainer.org](https://apptainer.org/). Apptainer is a schism from Singularity, where certain functions only work with one or another. We use Apptainer to upload and download containers from Quay.io.
 
