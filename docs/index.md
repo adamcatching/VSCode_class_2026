@@ -2,9 +2,7 @@
 
 ## Outline
 
-
 ### Starting off
-
 
 Computational biology is quickly becoming integral and essential to the field of biomedical science. With big data, machine learning, and everyone building their own packages, coding anything relevant can feel daunting and insurmountable. But the attainable aspect of coding is anyone can work their way to writing advanced and unique code, all that is needed is practice. 
 
