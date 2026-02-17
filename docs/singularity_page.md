@@ -1,3 +1,6 @@
+# Singularity
+
+```
 # Computational Biology at the NIA
 
 ## Outline
@@ -23,4 +26,5 @@ As publically funded researchers, we have an obligation for our results to be as
 4. [Anaconda](anaconda.md)
 5. [GitHub](github.md) 
 6. [Snakemake](snakemake.md) 
-7. [Singularity](singularity_page.md) 
+7. [Singularity](singularity.md) 
+```
