@@ -1,4 +1,5 @@
-# Computational Biology at the NIA
+# VSCode, GitHub, and Snakemake: Best practices for high performance scientific computing on Biowulf
+
 
 ## Outline
 
